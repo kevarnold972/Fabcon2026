@@ -8,8 +8,9 @@ This is an Obsidian vault for planning attendance at FabCon 2026 (Microsoft Fabr
 
 ```
 Fabcon 2026/
+├── Bases/              # Obsidian Bases (.base files) for dynamic views
 ├── Templates/          # Obsidian templates for new notes
-├── Tracks/             # 19 track overview files with Dataview queries
+├── Tracks/             # 19 track overview files
 ├── Planning/           # Dashboard, schedule, and conflict resolution
 ├── Workshops/
 │   ├── Monday/         # 11 full-day workshops (March 16)
@@ -27,6 +28,69 @@ Fabcon 2026/
 | Wednesday | March 18 | Keynote + Sessions |
 | Thursday | March 19 | Sessions + Expo |
 | Friday | March 20 | Sessions |
+
+## Obsidian Bases
+
+This vault uses **Obsidian Bases** (core plugin) instead of Dataview for dynamic views. Base files are stored in `Bases/` and embedded in markdown files using `![[BaseFile.base]]` or `![[BaseFile.base#ViewName]]` syntax.
+
+### Base Files
+
+| File | Purpose |
+|------|---------|
+| `Track Sessions.base` | Shows sessions for the embedding track file (uses `this.file`) |
+| `Speaker Sessions.base` | Shows sessions for the embedding speaker file (uses `this.file`) |
+| `My Attending Sessions.base` | Sessions with status="Attending", views by day |
+| `Considering Sessions.base` | Sessions with status="Considering" |
+| `High Interest Sessions.base` | Sessions with interest >= 4 |
+| `All Sessions.base` | All sessions grouped by Status, Interest, Track, Day |
+| `All Speakers.base` | List of all speakers |
+| `All Tracks.base` | List of all tracks |
+| `Session Conflicts.base` | Sessions by time slot for conflict detection |
+
+### Bases Syntax Reference
+
+Bases use YAML syntax. Key patterns used in this vault:
+
+```yaml
+# Filter by folder
+filters:
+  or:
+    - file.inFolder("Sessions")
+    - file.inFolder("Workshops")
+
+# Filter by property value
+filters:
+  and:
+    - status == "Attending"
+    - day == "Wednesday"
+
+# Dynamic filter using embedding file (for Track/Speaker pages)
+filters:
+  - file.hasLink(this.file)
+
+# Views with grouping
+views:
+  - type: table
+    name: "By Status"
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - file.name
+      - day
+      - start_time
+```
+
+### Embedding Bases
+
+```markdown
+# Embed default view
+![[Track Sessions.base]]
+
+# Embed specific view by name
+![[My Attending Sessions.base#Wednesday]]
+![[All Sessions.base#By Track]]
+```
 
 ## YAML Frontmatter Schema
 
@@ -82,7 +146,7 @@ conference: FABCON
 
 ## Obsidian Plugins Required
 
-- **Dataview** - Required for dynamic queries in Track and Planning files
+- **Bases** - Core plugin (enable in Settings > Core plugins)
 
 ## Workflow
 

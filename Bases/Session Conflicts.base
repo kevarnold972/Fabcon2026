@@ -1,0 +1,195 @@
+filters:
+  - file.inFolder("Sessions")
+views:
+  - type: table
+    name: Wed 8:30 AM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "8:30 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 9:50 AM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "9:50 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 11:10 AM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "11:10 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 12:40 PM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "12:40 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 1:45 PM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "1:45 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 3:05 PM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "3:05 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 4:25 PM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "4:25 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 8:30 AM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "8:30 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 9:50 AM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "9:50 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 11:10 AM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "11:10 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 1:45 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "1:45 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 3:05 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "3:05 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 4:25 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "4:25 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 8:30 AM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "8:30 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 9:50 AM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "9:50 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 11:10 AM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "11:10 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status

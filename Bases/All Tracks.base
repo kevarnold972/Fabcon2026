@@ -1,0 +1,7 @@
+filters:
+  - file.inFolder("Tracks")
+views:
+  - type: list
+    name: All Tracks
+    order:
+      - file.name

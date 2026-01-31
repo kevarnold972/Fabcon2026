@@ -1,0 +1,57 @@
+filters:
+  and:
+    - or:
+        - file.inFolder("Sessions")
+        - file.inFolder("Workshops")
+    - status == "Attending"
+views:
+  - type: table
+    name: Monday Workshops
+    filters:
+      and:
+        - day == "Monday"
+    order:
+      - start_time
+      - file.name
+      - room
+      - level_name
+  - type: table
+    name: Tuesday Workshops
+    filters:
+      and:
+        - day == "Tuesday"
+    order:
+      - start_time
+      - file.name
+      - room
+      - level_name
+  - type: table
+    name: Wednesday
+    filters:
+      and:
+        - day == "Wednesday"
+    order:
+      - start_time
+      - file.name
+      - room
+      - track
+  - type: table
+    name: Thursday
+    filters:
+      and:
+        - day == "Thursday"
+    order:
+      - start_time
+      - file.name
+      - room
+      - track
+  - type: table
+    name: Friday
+    filters:
+      and:
+        - day == "Friday"
+    order:
+      - start_time
+      - file.name
+      - room
+      - track

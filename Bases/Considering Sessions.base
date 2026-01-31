@@ -1,0 +1,15 @@
+filters:
+  and:
+    - or:
+        - file.inFolder("Sessions")
+        - file.inFolder("Workshops")
+    - status == "Considering"
+views:
+  - type: table
+    name: Considering
+    order:
+      - file.name
+      - day
+      - start_time
+      - track
+      - interest

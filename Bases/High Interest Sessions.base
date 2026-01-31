@@ -1,0 +1,16 @@
+filters:
+  and:
+    - or:
+        - file.inFolder("Sessions")
+        - file.inFolder("Workshops")
+    - interest >= 4
+views:
+  - type: table
+    name: High Interest
+    order:
+      - file.name
+      - day
+      - start_time
+      - track
+      - interest
+      - status

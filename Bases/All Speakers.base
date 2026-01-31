@@ -1,0 +1,7 @@
+filters:
+  - file.inFolder("Speakers")
+views:
+  - type: list
+    name: All Speakers
+    order:
+      - file.name

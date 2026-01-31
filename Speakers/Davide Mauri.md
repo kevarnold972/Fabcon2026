@@ -17,16 +17,7 @@ Principal Program Manager at Microsoft, expert in SQL Server, Azure SQL and deve
 
 ## Sessions & Workshops
 
-```dataview
-TABLE
-  session_type as "Type",
-  day as "Day",
-  start_time as "Time",
-  track as "Track"
-FROM "Fabcon 2026/Sessions" OR "Fabcon 2026/Workshops"
-WHERE contains(speakers, [[Davide Mauri]])
-SORT date, start_time
-```
+![[Speaker Sessions.base]]
 
 ## Contact & Social
 

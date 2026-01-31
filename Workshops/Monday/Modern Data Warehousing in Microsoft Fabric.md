@@ -20,7 +20,7 @@ conference: FABCON
 requires_laptop: true
 url: https://fabriccon.com/sitemap-categories/94-monday-workshops/425-modern-data-warehousing-in-microsoft-fabric
 interest: "5"
-status: Going
+status: Attending
 tags:
   - fabcon2026
   - workshop

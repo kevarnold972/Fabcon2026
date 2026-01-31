@@ -1,0 +1,17 @@
+filters:
+  or:
+    - file.inFolder("Sessions")
+    - file.inFolder("Workshops")
+views:
+  - type: table
+    name: Sessions in Track
+    filters:
+      and:
+        - file.hasLink(this.file)
+    order:
+      - file.name
+      - session_type
+      - day
+      - start_time
+      - level_name
+      - status

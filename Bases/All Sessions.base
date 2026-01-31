@@ -1,0 +1,49 @@
+filters:
+  or:
+    - file.inFolder("Sessions")
+    - file.inFolder("Workshops")
+views:
+  - type: table
+    name: By Status
+    groupBy:
+      property: status
+      direction: DESC
+    order:
+      - file.name
+      - day
+      - start_time
+      - track
+  - type: table
+    name: By Interest
+    groupBy:
+      property: interest
+      direction: DESC
+    order:
+      - file.name
+      - day
+      - start_time
+      - track
+  - type: table
+    name: By Track
+    groupBy:
+      property: track
+      direction: ASC
+    order:
+      - file.name
+      - day
+      - start_time
+  - type: table
+    name: By Day
+    groupBy:
+      property: day
+      direction: ASC
+    order:
+      - start_time
+      - file.name
+      - track
+      - room
+  - type: table
+    name: Recently Modified
+    order:
+      - file.mtime
+      - file.name

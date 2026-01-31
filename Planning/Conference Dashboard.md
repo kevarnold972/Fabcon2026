@@ -30,84 +30,38 @@ tags:
 
 ### Sessions by Status
 
-```dataview
-TABLE WITHOUT ID
-  status as "Status",
-  length(rows) as "Count"
-FROM "Fabcon 2026/Sessions" OR "Fabcon 2026/Workshops"
-WHERE status != null
-GROUP BY status
-SORT length(rows) DESC
-```
+![[All Sessions.base#By Status]]
 
 ### Sessions by Interest Level
 
-```dataview
-TABLE WITHOUT ID
-  interest as "Interest Rating",
-  length(rows) as "Count"
-FROM "Fabcon 2026/Sessions" OR "Fabcon 2026/Workshops"
-WHERE interest != null
-GROUP BY interest
-SORT interest DESC
-```
+![[All Sessions.base#By Interest]]
 
 ---
 
 ## Sessions by Track
 
-```dataview
-TABLE WITHOUT ID
-  track as "Track",
-  length(rows) as "Total Sessions"
-FROM "Fabcon 2026/Sessions" OR "Fabcon 2026/Workshops"
-WHERE track != null
-GROUP BY track
-SORT length(rows) DESC
-```
+![[All Sessions.base#By Track]]
 
 ---
 
 ## Sessions by Day
 
-```dataview
-TABLE WITHOUT ID
-  day as "Day",
-  length(rows) as "Sessions"
-FROM "Fabcon 2026/Sessions" OR "Fabcon 2026/Workshops"
-WHERE day != null
-GROUP BY day
-```
+![[All Sessions.base#By Day]]
 
 ---
 
 ## Recently Modified
 
-```dataview
-TABLE WITHOUT ID
-  file.link as "Session",
-  file.mtime as "Modified"
-FROM "Fabcon 2026/Sessions" OR "Fabcon 2026/Workshops"
-SORT file.mtime DESC
-LIMIT 10
-```
+![[All Sessions.base#Recently Modified]]
 
 ---
 
 ## Speakers I Want to See
 
-```dataview
-LIST
-FROM "Fabcon 2026/Speakers"
-SORT file.name
-```
+![[All Speakers.base]]
 
 ---
 
 ## All Tracks
 
-```dataview
-LIST
-FROM "Fabcon 2026/Tracks"
-SORT file.name
-```
+![[All Tracks.base]]
