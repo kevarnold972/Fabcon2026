@@ -215,3 +215,186 @@ A properly populated session file should have:
 ## Tool Preferences
 
 When scraping or fetching web data, prefer **Python with requests/BeautifulSoup** over browser automation (Chrome MCP). Python is faster, more reliable, and uses less resources for data extraction tasks.
+
+---
+
+## Replicating This Vault for Another Conference
+
+This section documents how to create a similar vault for a different conference.
+
+### Step 1: Find the Data Source
+
+Most tech conferences use **Sessionize** for session management. To find the API:
+
+1. Go to the conference agenda page
+2. View page source (Ctrl+U) and search for "sessionize.com/api"
+3. Look for URLs like `https://sessionize.com/api/v2/XXXXXX/view/All`
+4. The API returns JSON with sessions, speakers, rooms, and categories
+
+**Alternative sources:**
+- Conference website with structured agenda
+- Sched.com (similar API pattern)
+- Custom conference apps (may need scraping)
+
+### Step 2: Understand the API Structure
+
+Sessionize API returns:
+```json
+{
+  "sessions": [...],      // All session data
+  "speakers": [...],      // All speaker profiles
+  "rooms": [...],         // Room name mappings
+  "categories": [...]     // Tracks, levels, session types, etc.
+}
+```
+
+Key session fields:
+- `title`, `description` - Session content
+- `startsAt`, `endsAt` - ISO datetime strings
+- `roomId` - Maps to rooms array
+- `speakers` - Array of speaker IDs
+- `categoryItems` - Array of category IDs (track, level, etc.)
+
+Key speaker fields:
+- `fullName`, `bio`, `tagLine` - Profile info
+- `links` - Social media URLs
+- `sessions` - Array of session IDs
+- `categoryItems` - Speaker type categories
+
+### Step 3: Create the Vault Structure
+
+```
+Conference Name/
+├── CLAUDE.md           # This file - project documentation
+├── README.md           # User-facing documentation
+├── Bases/              # Obsidian Bases for dynamic views
+├── Planning/           # Dashboard, schedule, conflicts
+├── Sessions/           # Breakout sessions
+├── Workshops/          # Pre-conference workshops (if applicable)
+├── Speakers/           # Speaker profiles
+├── Tracks/             # Track overview pages
+└── Templates/          # Templates for manual additions
+```
+
+### Step 4: Create Python Scripts
+
+#### Session/Workshop Creation Script Pattern
+
+```python
+import requests
+import re
+from pathlib import Path
+from datetime import datetime
+
+API_URL = "https://sessionize.com/api/v2/XXXXXX/view/All"
+VAULT_PATH = Path(r"path/to/vault")
+
+# Fetch data
+data = requests.get(API_URL).json()
+
+# Build lookup maps
+rooms_map = {r['id']: r['name'] for r in data.get('rooms', [])}
+speakers_map = {s['id']: s for s in data.get('speakers', [])}
+
+# Build categories map (tracks, levels, session types)
+categories_map = {}
+for cat in data.get('categories', []):
+    for item in cat.get('items', []):
+        categories_map[item['id']] = {
+            'name': item['name'],
+            'category': cat['title']  # e.g., "Track", "Level", "Session Type"
+        }
+
+# Process sessions
+for session in data.get('sessions', []):
+    title = session['title']
+
+    # Parse datetime
+    starts_at = session.get('startsAt')
+    if starts_at:
+        dt = datetime.fromisoformat(starts_at.replace('Z', '+00:00'))
+        date_str = dt.strftime("%Y-%m-%d")
+        start_time = dt.strftime("%I:%M %p").lstrip('0')
+        day = dt.strftime("%A")
+
+    # Get room
+    room = rooms_map.get(session.get('roomId'), '')
+
+    # Get speakers
+    speaker_names = [speakers_map[sid]['fullName']
+                     for sid in session.get('speakers', [])
+                     if sid in speakers_map]
+
+    # Get categories (track, level, etc.)
+    track = ""
+    level = ""
+    for cid in session.get('categoryItems', []):
+        if cid in categories_map:
+            cat_info = categories_map[cid]
+            if 'track' in cat_info['category'].lower():
+                track = cat_info['name']
+            elif 'level' in cat_info['category'].lower():
+                level = cat_info['name']
+
+    # Build frontmatter and content
+    # ... (see existing scripts in scratchpad for full examples)
+```
+
+#### Speaker Creation Script Pattern
+
+```python
+# Similar pattern - iterate speakers, extract:
+# - fullName, bio, tagLine (parse for role/company)
+# - links (LinkedIn, Twitter, Blog)
+# - categoryItems (speaker type)
+# - sessions (to determine which conference track)
+```
+
+### Step 5: Create Base Files
+
+Copy and adapt the Bases from this vault:
+
+| Base File | Adapt For |
+|-----------|-----------|
+| `Track Sessions.base` | Change folder names if different |
+| `Speaker Sessions.base` | Usually works as-is |
+| `My Attending Sessions.base` | Update day names if different schedule |
+| `All Sessions.base` | Update groupBy properties if schema differs |
+| `Session Conflicts.base` | Update time slot grouping |
+
+### Step 6: Create Planning Files
+
+- **Conference Dashboard.md** - Update conference info, embed bases
+- **My Schedule.md** - Update day structure to match conference
+- **Session Conflicts.md** - Embed conflict detection base
+
+### Step 7: Verification Checklist
+
+After initial data import:
+
+- [ ] Session count matches API count
+- [ ] All sessions have `room:` populated
+- [ ] All sessions have `speakers:` with wiki links
+- [ ] All sessions have `track:` with wiki link
+- [ ] All sessions have `## Description` content
+- [ ] Speaker count matches API count
+- [ ] All speakers have bios
+- [ ] Track files exist for all unique tracks
+- [ ] Bases render correctly in Obsidian
+- [ ] Planning views show correct data
+
+### Common Issues and Fixes
+
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| TypeError with None | API returns null for optional fields | Use `value or ''` pattern |
+| Missing sessions | Partial API fetch or fuzzy matching issues | Compare normalized titles |
+| Empty rooms | Session not yet scheduled | Re-sync closer to conference |
+| Broken wiki links | Speaker/track name mismatch | Ensure exact name matching |
+| Bases not rendering | Plugin not enabled | Enable Bases in core plugins |
+
+### Maintenance
+
+- **Before conference**: Re-sync data weekly as schedule changes
+- **During conference**: Update with room changes, cancellations
+- **After conference**: Add notes, resources, recordings links
