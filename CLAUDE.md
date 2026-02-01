@@ -189,3 +189,11 @@ conference: FABCON
 ## Data Source
 
 Session data scraped from https://fabriccon.com/sitemap
+
+Official session data available via Sessionize APIs:
+- Workshops: `https://sessionize.com/api/v2/coqpz3x7/view/All`
+- Sessions: `https://sessionize.com/api/v2/1op0w2v7/view/All`
+
+## Tool Preferences
+
+When scraping or fetching web data, prefer **Python with requests/BeautifulSoup** over browser automation (Chrome MCP). Python is faster, more reliable, and uses less resources for data extraction tasks.
