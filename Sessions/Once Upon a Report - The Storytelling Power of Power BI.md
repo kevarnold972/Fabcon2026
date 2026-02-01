@@ -1,20 +1,20 @@
 ---
 title: "Once Upon a Report: The Storytelling Power of Power BI"
-date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
+date: 2026-03-19
+day: "Thursday"
+start_time: "8:00 AM"
+end_time: "9:00 AM"
 duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
-level: 300
-level_name: "Technical"
+room: "B313b-B314"
+track: "[[Power BI]]"
+session_type: "60 Minute Session"
+level: 100
+level_name: "100 - Business Level"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Julia Boe]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +22,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

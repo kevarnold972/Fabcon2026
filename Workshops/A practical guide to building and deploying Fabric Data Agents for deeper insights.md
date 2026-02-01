@@ -1,20 +1,22 @@
 ---
 title: "A practical guide to building and deploying Fabric Data Agents for deeper insights"
 date: 2026-03-16
-day: Monday
+day: "Monday"
 start_time: "9:00 AM"
 end_time: "5:00 PM"
 duration: 480
-room: ""
-track: ""
-session_type: "Workshop"
-level: 300
-level_name: "Technical"
+room: "TMB 4"
+track: "[[Data Science]]"
+session_type: "Full Day Workshop"
+level: 200
+level_name: "200 - Feature Oriented"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Mayur Jain]]"
+  - "[[Shreyas Canchi Radhakrishna]]"
+  - "[[Scott Votaw]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -23,7 +25,6 @@ tags:
   - session
   - workshop
 ---
-
 ## Description
 
 

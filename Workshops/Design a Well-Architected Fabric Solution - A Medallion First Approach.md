@@ -1,20 +1,21 @@
 ---
 title: "Design a Well-Architected Fabric Solution: A Medallion First Approach"
 date: 2026-03-16
-day: Monday
+day: "Monday"
 start_time: "9:00 AM"
 end_time: "5:00 PM"
 duration: 480
-room: ""
-track: ""
-session_type: "Workshop"
-level: 300
-level_name: "Technical"
+room: "Room C105-C106"
+track: "[[Data Integration]]"
+session_type: "Full Day Workshop"
+level: 200
+level_name: "200 - Feature Oriented"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Reid Havens]]"
+  - "[[Steve Campbell]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -23,7 +24,6 @@ tags:
   - session
   - workshop
 ---
-
 ## Description
 
 

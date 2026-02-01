@@ -1,20 +1,21 @@
 ---
 title: "SSMS 22 Unlocked: Features You've Been Waiting For"
 date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
+day: "Wednesday"
+start_time: "3:05 PM"
+end_time: "4:05 PM"
 duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
-level: 300
-level_name: "Technical"
+room: "B313b-B314"
+track: "[[SQL in Fabric]]"
+session_type: "60 Minute Session"
+level: 200
+level_name: "200 - Feature Oriented"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Erin Stellato]]"
+  - "[[Makena Barickman]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +23,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

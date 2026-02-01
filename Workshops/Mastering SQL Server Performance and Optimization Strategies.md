@@ -1,20 +1,21 @@
 ---
 title: "Mastering SQL Server Performance & Optimization Strategies"
 date: 2026-03-16
-day: Monday
+day: "Monday"
 start_time: "9:00 AM"
 end_time: "5:00 PM"
 duration: 480
-room: ""
-track: ""
-session_type: "Workshop"
-level: 300
-level_name: "Technical"
+room: "C302"
+track: "[[SQLCON]]"
+session_type: "Full Day Workshop"
+level: 100
+level_name: "100 - Business Level"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Monica Morehouse (Rathbun)]]"
+  - "[[John Morehouse]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -23,7 +24,6 @@ tags:
   - session
   - workshop
 ---
-
 ## Description
 
 

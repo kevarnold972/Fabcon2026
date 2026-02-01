@@ -1,20 +1,22 @@
 ---
 title: "Architecting Data Warehouse Medallion Architecture: From Ingestion to Security at Lightning Speed"
 date: 2026-03-17
-day: Tuesday
+day: "Tuesday"
 start_time: "9:00 AM"
 end_time: "5:00 PM"
 duration: 480
-room: ""
-track: ""
-session_type: "Workshop"
+room: "C113-114"
+track: "[[Admin & Governance]]"
+session_type: "Full Day Workshop"
 level: 300
-level_name: "Technical"
+level_name: "300 - Technical"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Venkata Satya Pradeep Srikakolapu]]"
+  - "[[Freddie Santos]]"
+  - "[[Bradley Schacht]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -23,7 +25,6 @@ tags:
   - session
   - workshop
 ---
-
 ## Description
 
 

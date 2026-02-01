@@ -1,20 +1,21 @@
 ---
 title: "The Fabric Effect at CDW: Built by the Business, Supercharged by IT"
-date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
-duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
-level: 300
-level_name: "Technical"
+date: 2026-03-19
+day: "Thursday"
+start_time: "9:30 AM"
+end_time: "9:50 AM"
+duration: 20
+room: "Expo Insight Theater"
+track: "[[Real-Time Intelligence]]"
+session_type: "20 Minute Sponsor Solution Showcase (as part of a sponsorship package)"
+level: 100
+level_name: "100 - Business Level"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Julie Nelson]]"
+  - "[[Christopher Marcolis]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +23,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

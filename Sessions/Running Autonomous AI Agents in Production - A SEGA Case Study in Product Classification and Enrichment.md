@@ -1,20 +1,20 @@
 ---
 title: "Running Autonomous AI Agents in Production: A SEGA Case Study in Product Classification & Enrichment"
-date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
-duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
+date: 2026-03-19
+day: "Thursday"
+start_time: "3:20 PM"
+end_time: "3:40 PM"
+duration: 20
+room: "Expo Innovation Theater"
+track: "[[Admin & Governance]]"
+session_type: "20 Minute Sponsor Solution Showcase (as part of a sponsorship package)"
 level: 300
-level_name: "Technical"
+level_name: "300 - Technical"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Tim Ward]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +22,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

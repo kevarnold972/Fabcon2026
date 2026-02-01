@@ -1,20 +1,21 @@
 ---
 title: "What's New and What's Next for Power BI Visuals"
-date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
+date: 2026-03-19
+day: "Thursday"
+start_time: "10:10 AM"
+end_time: "11:10 AM"
 duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
-level: 300
-level_name: "Technical"
+room: "C111-C112"
+track: "[[Power BI]]"
+session_type: "60 Minute Session"
+level: 200
+level_name: "200 - Feature Oriented"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Harleen Kaur]]"
+  - "[[Jacinda Eng]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +23,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

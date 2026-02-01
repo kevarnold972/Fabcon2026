@@ -1,20 +1,21 @@
 ---
 title: "Mastering Data Factory in Microsoft Fabric: From Security to Operationalization"
 date: 2026-03-16
-day: Monday
+day: "Monday"
 start_time: "9:00 AM"
 end_time: "5:00 PM"
 duration: 480
-room: ""
-track: ""
-session_type: "Workshop"
-level: 300
-level_name: "Technical"
+room: "C211-C213"
+track: "[[Data Integration]]"
+session_type: "Full Day Workshop"
+level: 100
+level_name: "100 - Business Level"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Michaela Isaacs]]"
+  - "[[Abhishek Narain]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -23,7 +24,6 @@ tags:
   - session
   - workshop
 ---
-
 ## Description
 
 

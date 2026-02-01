@@ -1,20 +1,21 @@
 ---
 title: "CI/CD and DevOps for Power BI: Beyond the Happy Path"
 date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
+day: "Wednesday"
+start_time: "4:25 PM"
+end_time: "5:25 PM"
 duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
+room: "C302"
+track: "[[Admin & Governance]]"
+session_type: "Sponsor Speaker 60 Minute Session (as part of a sponsorship package)"
 level: 300
-level_name: "Technical"
+level_name: "300 - Technical"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Edwin Van Megesen]]"
+  - "[[Amir Sarir]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +23,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

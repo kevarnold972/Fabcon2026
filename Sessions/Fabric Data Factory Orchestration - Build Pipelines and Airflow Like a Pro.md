@@ -1,20 +1,21 @@
 ---
 title: "Fabric Data Factory Orchestration: Build Pipelines + Airflow Like a Pro"
 date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
+day: "Wednesday"
+start_time: "3:05 PM"
+end_time: "4:05 PM"
 duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
+room: "B405-B406a"
+track: "[[Data Engineering]]"
+session_type: "60 Minute Session"
 level: 300
-level_name: "Technical"
+level_name: "300 - Technical"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Mark Kromer]]"
+  - "[[Mario Zimmermann]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +23,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 

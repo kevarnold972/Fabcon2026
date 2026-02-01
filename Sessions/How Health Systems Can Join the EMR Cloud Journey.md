@@ -1,20 +1,21 @@
 ---
 title: "How Health Systems Can Join the EMR Cloud Journey"
-date: 2026-03-18
-day: Wednesday
-start_time: "8:30 AM"
-end_time: "9:30 AM"
+date: 2026-03-19
+day: "Thursday"
+start_time: "2:00 PM"
+end_time: "3:00 PM"
 duration: 60
-room: ""
-track: ""
-session_type: "Breakout"
-level: 300
-level_name: "Technical"
+room: "C301"
+track: "[[Power BI]]"
+session_type: "Sponsor Speaker 60 Minute Session (as part of a sponsorship package)"
+level: 100
+level_name: "100 - Business Level"
 audience:
   - Data Professional
 speakers:
-  - ""
-conference: FABCON
+  - "[[Jamie McGlothlin]]"
+  - "[[Micah Price-Offermann]]"
+conference: "FABCON"
 url: ""
 interest:
 status: Not Reviewed
@@ -22,7 +23,6 @@ tags:
   - fabcon2026
   - session
 ---
-
 ## Description
 
 
