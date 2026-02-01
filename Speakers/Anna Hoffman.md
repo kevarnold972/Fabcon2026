@@ -1,19 +1,18 @@
 ---
 type: Speaker
 name: "Anna Hoffman"
-company: "Microsoft"
-role: ""
-conference: SQLCON
-speaker_type: Microsoft Session Speaker
+company: ""
+role: "Product @Microsoft"
+conference: FABCON
+speaker_type: Microsoft Speaker
 tags:
   - fabcon2026
   - speaker
-  - microsoft
 ---
 
 ## About
 
-Microsoft speaker on SQL topics.
+Principal Group Product Manager on Microsoft's SQL Engineering team. Host of Data Exposed. GT Engineering Undergrad + Data Science Masters. 
 
 ## Sessions & Workshops
 
@@ -21,9 +20,9 @@ Microsoft speaker on SQL topics.
 
 ## Contact & Social
 
-- LinkedIn:
-- Twitter/X:
-- Blog:
+- LinkedIn: https://www.linkedin.com/in/amthomas46/
+- Twitter/X: https://twitter.com/AnalyticAnna
+- Blog: https://aka.ms/azuresqlyt
 
 ## My Notes
 

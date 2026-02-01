@@ -1,19 +1,18 @@
 ---
 type: Speaker
 name: "Wee Hyong Tok"
-company: "Microsoft"
-role: ""
+company: "Partner Director, Products"
+role: "Microsoft"
 conference: FABCON
-speaker_type: Microsoft Session Speaker
+speaker_type: Microsoft Speaker
 tags:
   - fabcon2026
   - speaker
-  - microsoft
 ---
 
 ## About
 
-Microsoft speaker on Fabric Data Factory.
+Wee Hyong is Partner, Director Product Management, with Azure Data organization at Microsoft, responsible for the Data Integration experiences in Microsoft Fabric.  Wee Hyong has a PhD in Computer Science from National University of Singapore.
 
 ## Sessions & Workshops
 
@@ -21,9 +20,9 @@ Microsoft speaker on Fabric Data Factory.
 
 ## Contact & Social
 
-- LinkedIn:
-- Twitter/X:
-- Blog:
+- LinkedIn: https://www.linkedin.com/in/weehyongtok
+- Twitter/X: https://twitter.com/weehyong
+- Blog: 
 
 ## My Notes
 

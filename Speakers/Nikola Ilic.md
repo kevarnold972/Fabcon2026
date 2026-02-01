@@ -1,10 +1,10 @@
 ---
 type: Speaker
 name: "Nikola Ilic"
-company: ""
-role: ""
+company: "Microsoft Data Platform MVP"
+role: "Data Mozart"
 conference: FABCON
-speaker_type: Community Session Speaker
+speaker_type: Community Speaker
 tags:
   - fabcon2026
   - speaker
@@ -12,7 +12,7 @@ tags:
 
 ## About
 
-Data Platform expert specializing in Power BI and Fabric data engineering.
+I'm making music from the data! Power BI and Microsoft Fabric addict, Microsoft Data Platform MVP, Pluralsight Author, O'Reilly Instructor, blogger, speaker...Interested in everything related to data - always eager to extract valuable info from raw data in the most effective way. Multi-year experience working with (predominantly) Microsoft Data Platform (SQL Server, SSAS, SSIS, SSRS, and Power BI). Father of 2 and true football (and Barca) fan!
 
 ## Sessions & Workshops
 
@@ -20,9 +20,9 @@ Data Platform expert specializing in Power BI and Fabric data engineering.
 
 ## Contact & Social
 
-- LinkedIn:
-- Twitter/X:
-- Blog:
+- LinkedIn: https://www.linkedin.com/in/nikola-ilic-data-mozart/
+- Twitter/X: https://twitter.com/DataMozart
+- Blog: https://data-mozart.com/
 
 ## My Notes
 
