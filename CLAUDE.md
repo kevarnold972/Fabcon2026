@@ -188,11 +188,29 @@ conference: FABCON
 
 ## Data Source
 
-Session data scraped from https://fabriccon.com/sitemap
-
-Official session data available via Sessionize APIs:
+**Official session data via Sessionize APIs (authoritative source):**
 - Workshops: `https://sessionize.com/api/v2/coqpz3x7/view/All`
 - Sessions: `https://sessionize.com/api/v2/1op0w2v7/view/All`
+
+These APIs return JSON with complete session data including: title, description, date/time, room, speakers, track, level, audience, and session type.
+
+### Syncing Session Data
+
+When updating or verifying session data:
+
+1. **Always use the Sessionize APIs** - they are the source of truth for the official agenda
+2. **Count verification** - API should return 267 total sessions (245 sessions + 22 workshops as of Jan 2026)
+3. **After any sync, verify counts match** - compare vault file count to API count
+4. **Unverified sessions** go in `Sessions/_Unverified/` or `Workshops/_Unverified/`
+5. **Check for empty `room:` fields** - indicates incomplete data that needs updating
+
+### Session File Validation
+
+A properly populated session file should have:
+- `room:` with an actual value (not empty)
+- `speakers:` with `[[Speaker Name]]` links
+- `track:` with `[[Track Name]]` link
+- `## Description` section with content
 
 ## Tool Preferences
 
