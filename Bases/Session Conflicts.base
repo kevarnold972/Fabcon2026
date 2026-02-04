@@ -6,35 +6,11 @@ filters:
     - status == "Attending"
 views:
   - type: table
-    name: Wed 8:30 AM
+    name: Wed 8:45 AM
     filters:
       and:
         - day == "Wednesday"
-        - start_time == "8:30 AM"
-    order:
-      - interest
-      - file.name
-      - track
-      - room
-      - status
-  - type: table
-    name: Wed 9:50 AM
-    filters:
-      and:
-        - day == "Wednesday"
-        - start_time == "9:50 AM"
-    order:
-      - interest
-      - file.name
-      - track
-      - room
-      - status
-  - type: table
-    name: Wed 11:10 AM
-    filters:
-      and:
-        - day == "Wednesday"
-        - start_time == "11:10 AM"
+        - start_time == "8:45 AM"
     order:
       - interest
       - file.name
@@ -47,6 +23,18 @@ views:
       and:
         - day == "Wednesday"
         - start_time == "12:40 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Wed 1:10 PM
+    filters:
+      and:
+        - day == "Wednesday"
+        - start_time == "1:10 PM"
     order:
       - interest
       - file.name
@@ -90,11 +78,11 @@ views:
       - room
       - status
   - type: table
-    name: Thu 8:30 AM
+    name: Thu 8:00 AM
     filters:
       and:
         - day == "Thursday"
-        - start_time == "8:30 AM"
+        - start_time == "8:00 AM"
     order:
       - interest
       - file.name
@@ -102,11 +90,11 @@ views:
       - room
       - status
   - type: table
-    name: Thu 9:50 AM
+    name: Thu 9:30 AM
     filters:
       and:
         - day == "Thursday"
-        - start_time == "9:50 AM"
+        - start_time == "9:30 AM"
     order:
       - interest
       - file.name
@@ -114,11 +102,11 @@ views:
       - room
       - status
   - type: table
-    name: Thu 11:10 AM
+    name: Thu 10:10 AM
     filters:
       and:
         - day == "Thursday"
-        - start_time == "11:10 AM"
+        - start_time == "10:10 AM"
     order:
       - interest
       - file.name
@@ -126,11 +114,11 @@ views:
       - room
       - status
   - type: table
-    name: Thu 1:45 PM
+    name: Thu 11:30 AM
     filters:
       and:
         - day == "Thursday"
-        - start_time == "1:45 PM"
+        - start_time == "11:30 AM"
     order:
       - interest
       - file.name
@@ -138,11 +126,11 @@ views:
       - room
       - status
   - type: table
-    name: Thu 3:05 PM
+    name: Thu 12:30 PM
     filters:
       and:
         - day == "Thursday"
-        - start_time == "3:05 PM"
+        - start_time == "12:30 PM"
     order:
       - interest
       - file.name
@@ -150,11 +138,11 @@ views:
       - room
       - status
   - type: table
-    name: Thu 4:25 PM
+    name: Thu 1:00 PM
     filters:
       and:
         - day == "Thursday"
-        - start_time == "4:25 PM"
+        - start_time == "1:00 PM"
     order:
       - interest
       - file.name
@@ -162,11 +150,71 @@ views:
       - room
       - status
   - type: table
-    name: Fri 8:30 AM
+    name: Thu 1:30 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "1:30 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 2:00 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "2:00 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 3:20 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "3:20 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 4:15 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "4:15 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Thu 5:30 PM
+    filters:
+      and:
+        - day == "Thursday"
+        - start_time == "5:30 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 8:00 AM
     filters:
       and:
         - day == "Friday"
-        - start_time == "8:30 AM"
+        - start_time == "8:00 AM"
     order:
       - interest
       - file.name
@@ -174,11 +222,11 @@ views:
       - room
       - status
   - type: table
-    name: Fri 9:50 AM
+    name: Fri 9:30 AM
     filters:
       and:
         - day == "Friday"
-        - start_time == "9:50 AM"
+        - start_time == "9:30 AM"
     order:
       - interest
       - file.name
@@ -186,11 +234,71 @@ views:
       - room
       - status
   - type: table
-    name: Fri 11:10 AM
+    name: Fri 10:10 AM
     filters:
       and:
         - day == "Friday"
-        - start_time == "11:10 AM"
+        - start_time == "10:10 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 11:30 AM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "11:30 AM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 12:45 PM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "12:45 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 1:00 PM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "1:00 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 2:00 PM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "2:00 PM"
+    order:
+      - interest
+      - file.name
+      - track
+      - room
+      - status
+  - type: table
+    name: Fri 3:15 PM
+    filters:
+      and:
+        - day == "Friday"
+        - start_time == "3:15 PM"
     order:
       - interest
       - file.name
