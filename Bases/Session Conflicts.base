@@ -1,5 +1,7 @@
 filters:
-  - file.inFolder("Sessions")
+  or:
+    - file.inFolder("Sessions")
+    - file.inFolder("Workshops")
 views:
   - type: table
     name: Wed 8:30 AM
