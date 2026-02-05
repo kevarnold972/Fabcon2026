@@ -6,8 +6,37 @@ This field enables proper chronological sorting in Obsidian Bases.
 
 import os
 import re
+import sys
 from pathlib import Path
 from datetime import datetime
+
+def get_vault_path():
+    """
+    Determine the vault path automatically.
+    
+    Returns:
+        Path object pointing to the vault root directory
+    """
+    # Try to find vault path relative to script location
+    script_dir = Path(__file__).parent
+    vault_path = script_dir.parent
+    
+    # Verify this looks like the vault by checking for expected directories
+    if (vault_path / 'Sessions').exists() and (vault_path / 'Workshops').exists():
+        return vault_path
+    
+    # Fallback to current working directory
+    cwd = Path.cwd()
+    if (cwd / 'Sessions').exists() and (cwd / 'Workshops').exists():
+        return cwd
+    
+    # Last resort: hardcoded path for GitHub Actions
+    fallback = Path('/home/runner/work/Fabcon2026/Fabcon2026')
+    if fallback.exists() and (fallback / 'Sessions').exists():
+        return fallback
+    
+    print("Error: Could not find vault path. Please run from vault root or Scripts directory.")
+    sys.exit(1)
 
 def convert_12h_to_24h(time_12h):
     """
@@ -78,7 +107,8 @@ def process_markdown_file(filepath):
 
 def main():
     """Main function to process all session and workshop files."""
-    vault_path = Path('/home/runner/work/Fabcon2026/Fabcon2026')
+    vault_path = get_vault_path()
+    print(f"Using vault path: {vault_path}\n")
     
     # Find all markdown files in Sessions and Workshops
     session_files = list(vault_path.glob('Sessions/*.md'))

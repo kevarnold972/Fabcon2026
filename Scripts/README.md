@@ -26,16 +26,21 @@ python Scripts/patch_start_times.py
 
 **Example output:**
 ```
+Using vault path: /path/to/Fabcon2026
+
 Found 245 session files
 Found 22 workshop files
 Total: 267 files to process
 
 Updated Sessions/AI in Action.md: 4:25 PM -> 16:25
 Updated Workshops/Power BI Mastery.md: 9:00 AM -> 09:00
+...
 
-✓ Modified 156 files
-✓ Skipped 111 files (already have start_time_24h)
+✓ Modified 267 files
+✓ Skipped 0 files (already have start_time_24h)
 ```
+
+Note: The example shows all 267 files being updated. On subsequent runs, most files will be skipped since they already have the field.
 
 **Why this field exists:**
 
