@@ -3,6 +3,7 @@ title: "Unifying Data Discovery: A Real-World Implementation of Microsoft Purvie
 date: 2026-03-20
 day: Friday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "C108-C109"
@@ -25,7 +26,8 @@ tags:
 
 ## Description
 
-In a data-driven world, managing data assets effectively is vital. This session highlights Lufthansa Group’s successful adoption of Microsoft Purview Unified Catalog as its central data catalog. Attendees will learn key architectural decisions, best practices, challenges faced, and lessons learned.
+In a data-driven world, managing data assets effectively is vital. This session highlights Lufthansa Group’s successful adoption of Microsoft Purview Unified Catalog as its central data catalog. Attendees will learn key architectural decisions, best practices, challenges faced, and lessons learned.
+
 
 
 ## Key Takeaways

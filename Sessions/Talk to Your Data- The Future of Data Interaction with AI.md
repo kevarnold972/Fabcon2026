@@ -3,6 +3,7 @@ title: "Talk to Your Data: The Future of Data Interaction with AI"
 date: 2026-03-18
 day: Wednesday
 start_time: "4:25 PM"
+start_time_24h: "16:25"
 end_time: "5:25 PM"
 duration: 60
 room: "C108-C109"
@@ -25,7 +26,8 @@ tags:
 
 ## Description
 
-In the evolving world of data, the ability to interact with your datasets and databases using natural language is a game-changer. This session will introduce you to the power of Azure OpenAI, Azure SQL, and Microsoft Fabric, showing you how to break down barriers that have traditionally required. 
+In the evolving world of data, the ability to interact with your datasets and databases using natural language is a game-changer. This session will introduce you to the power of Azure OpenAI, Azure SQL, and Microsoft Fabric, showing you how to break down barriers that have traditionally required. 
+
 
 
 ## Key Takeaways

@@ -3,6 +3,7 @@ title: "Brewing Better Decisions for a Dunkin Donuts Franchisee with Microsoft F
 date: 2026-03-18
 day: Wednesday
 start_time: "1:10 PM"
+start_time_24h: "13:10"
 end_time: "1:30 PM"
 duration: 20
 room: "Expo Innovation Theater"

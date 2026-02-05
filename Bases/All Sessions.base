@@ -11,7 +11,7 @@ views:
     order:
       - file.name
       - day
-      - start_time
+      - start_time_24h
       - track
   - type: table
     name: By Interest
@@ -21,7 +21,7 @@ views:
     order:
       - file.name
       - day
-      - start_time
+      - start_time_24h
       - track
   - type: table
     name: By Track
@@ -31,14 +31,14 @@ views:
     order:
       - file.name
       - day
-      - start_time
+      - start_time_24h
   - type: table
     name: By Day
     groupBy:
       property: day
       direction: ASC
     order:
-      - start_time
+      - start_time_24h
       - file.name
       - track
       - room

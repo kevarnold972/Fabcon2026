@@ -3,6 +3,7 @@ title: "Best Practices for Library Management with Microsoft Fabric Spark Enviro
 date: 2026-03-19
 day: "Thursday"
 start_time: "2:00 PM"
+start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "C113-C114"

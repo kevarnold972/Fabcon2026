@@ -10,6 +10,6 @@ views:
     order:
       - file.name
       - day
-      - start_time
+      - start_time_24h
       - track
       - interest

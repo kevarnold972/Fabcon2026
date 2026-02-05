@@ -3,6 +3,7 @@ title: "From Transactions to Analytics: Transforming MySQL Data with Fabric Mirr
 date: 2026-03-18
 day: Wednesday
 start_time: "4:25 PM"
+start_time_24h: "16:25"
 end_time: "5:25 PM"
 duration: 60
 room: "C208-C210"

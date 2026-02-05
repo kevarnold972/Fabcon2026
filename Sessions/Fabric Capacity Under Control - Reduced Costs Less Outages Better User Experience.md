@@ -3,6 +3,7 @@ title: "Fabric Capacity Under Control: Reduced Costs, Less Outages, Better User 
 date: 2026-03-19
 day: Thursday
 start_time: "9:30 AM"
+start_time_24h: "09:30"
 end_time: "9:50 AM"
 duration: 20
 room: "Expo Solution Theater"

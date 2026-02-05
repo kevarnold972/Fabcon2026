@@ -3,6 +3,7 @@ title: "Power BI in Higher Education: Real Use Cases from Enrollment to Graduati
 date: 2026-03-19
 day: Thursday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "TMB 1"

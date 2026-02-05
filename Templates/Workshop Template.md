@@ -3,6 +3,7 @@ title: "{{title}}"
 date: {{date}}
 day: {{day}}
 start_time: "9:00 AM"
+start_time_24h: "09:00"
 end_time: "5:00 PM"
 duration: 480
 room: "{{room}}"

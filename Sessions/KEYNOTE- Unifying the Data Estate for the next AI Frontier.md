@@ -3,6 +3,7 @@ title: "KEYNOTE: Unifying the Data Estate for the next AI Frontier "
 date: 2026-03-18
 day: Wednesday
 start_time: "8:45 AM"
+start_time_24h: "08:45"
 end_time: "11:45 AM"
 duration: 180
 room: "State Farm Arena"

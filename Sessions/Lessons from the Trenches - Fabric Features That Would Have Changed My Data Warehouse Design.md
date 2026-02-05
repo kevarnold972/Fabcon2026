@@ -3,6 +3,7 @@ title: "Lessons from the Trenches - Fabric Features That Would Have Changed My D
 date: 2026-03-19
 day: Thursday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "B406b-B407"
@@ -25,7 +26,8 @@ tags:
 
 ## Description
 
-Ever built your Fabric data warehouse only to discover a new feature that would have saved weeks of effort? You’re not alone. This session dives into the underrated and emerging Fabric capabilities that every architect and engineer should know.
+Ever built your Fabric data warehouse only to discover a new feature that would have saved weeks of effort? You’re not alone. This session dives into the underrated and emerging Fabric capabilities that every architect and engineer should know.
+
 Through real implementation stories, we will cover what to revisit in your current designs & upcoming releases that can impact your Fabric ecosystem.
 
 ## Key Takeaways

@@ -3,6 +3,7 @@ title: "Building a Microsoft Fabric CoE That Works: What We Learned and How You 
 date: 2026-03-19
 day: Thursday
 start_time: "11:30 AM"
+start_time_24h: "11:30"
 end_time: "12:30 PM"
 duration: 60
 room: "TMB 4"

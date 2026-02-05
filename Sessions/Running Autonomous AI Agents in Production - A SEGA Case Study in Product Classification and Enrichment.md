@@ -3,6 +3,7 @@ title: "Running Autonomous AI Agents in Production: A SEGA Case Study in Product
 date: 2026-03-19
 day: "Thursday"
 start_time: "3:20 PM"
+start_time_24h: "15:20"
 end_time: "3:40 PM"
 duration: 20
 room: "Expo Innovation Theater"

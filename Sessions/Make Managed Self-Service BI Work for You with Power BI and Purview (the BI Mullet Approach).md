@@ -3,6 +3,7 @@ title: "Make Managed Self-Service BI Work for You with Power BI and Purview (the
 date: 2026-03-18
 day: Wednesday
 start_time: "3:05 PM"
+start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "TMB 4"

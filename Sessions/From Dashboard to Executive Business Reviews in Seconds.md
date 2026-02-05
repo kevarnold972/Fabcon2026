@@ -3,6 +3,7 @@ title: "From Dashboard to Executive Business Reviews in Seconds"
 date: 2026-03-20
 day: Friday
 start_time: "9:30 AM"
+start_time_24h: "09:30"
 end_time: "9:50 AM"
 duration: 20
 room: "Expo Solution Theater"

@@ -3,6 +3,7 @@ title: "Deployment Pipeline Patterns for Multi-Workspace Environments in Microso
 date: 2026-03-18
 day: Wednesday
 start_time: "3:05 PM"
+start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "C208-C210"

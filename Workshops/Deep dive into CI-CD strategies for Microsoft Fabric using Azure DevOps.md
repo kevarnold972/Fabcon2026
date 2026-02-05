@@ -3,6 +3,7 @@ title: "Deep dive into CI/CD strategies for Microsoft Fabric using Azure DevOps"
 date: 2026-03-17
 day: Tuesday
 start_time: "9:00 AM"
+start_time_24h: "09:00"
 end_time: "5:00 PM"
 duration: 480
 room: "Room C105-C106"
@@ -26,12 +27,18 @@ tags:
 
 ## Description
 
-Take a deep dive into CI/CD strategies for Microsoft Fabric using Azure DevOps. This session explores Git-integrated deployments, Azure Pipelines, variable management and various tooling's. 
-
-We’ll also examine testing approaches and automation design patterns to help you build robust, maintainable deployment workflows tailored to Fabric’s architecture.
-
-By the end of the workshop you will have the knowledge to deploy with confidence.
-
+Take a deep dive into CI/CD strategies for Microsoft Fabric using Azure DevOps. This session explores Git-integrated deployments, Azure Pipelines, variable management and various tooling's. 
+
+
+
+We’ll also examine testing approaches and automation design patterns to help you build robust, maintainable deployment workflows tailored to Fabric’s architecture.
+
+
+
+By the end of the workshop you will have the knowledge to deploy with confidence.
+
+
+
 
 
 ## Key Takeaways

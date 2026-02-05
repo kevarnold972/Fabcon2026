@@ -3,6 +3,7 @@ title: "How Impetus LeapLogic Automates the Move from Legacy Systems to Microsof
 date: 2026-03-19
 day: "Thursday"
 start_time: "1:00 PM"
+start_time_24h: "13:00"
 end_time: "1:20 PM"
 duration: 20
 room: "Expo Solution Theater"
