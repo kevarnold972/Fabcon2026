@@ -77,13 +77,14 @@ def process_markdown_file(filepath):
     if 'start_time_24h:' in content:
         return False
     
-    # Find the start_time field using regex
-    match = re.search(r'^start_time:\s*"([^"]+)"', content, re.MULTILINE)
+    # Find the start_time field using regex - handles both quoted and unquoted formats
+    # Matches: start_time: "10:10 AM" or start_time: 10:10 AM
+    match = re.search(r'^start_time:\s*"?([^"\n]+?)"?\s*$', content, re.MULTILINE)
     if not match:
         print(f"Warning: No start_time found in {filepath}")
         return False
     
-    time_12h = match.group(1)
+    time_12h = match.group(1).strip()
     time_24h = convert_12h_to_24h(time_12h)
     
     if not time_24h:
