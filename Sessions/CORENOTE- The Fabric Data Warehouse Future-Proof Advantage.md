@@ -3,6 +3,7 @@ title: "CORENOTE: The Fabric Data Warehouse Future-Proof Advantage"
 date: 2026-03-18
 day: Wednesday
 start_time: "3:05 PM"
+start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "C113-C114"

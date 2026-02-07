@@ -3,6 +3,7 @@ title: "Engineering Excellence with Fabric Spark - Test, Model, Predict, and Sca
 date: 2026-03-17
 day: Tuesday
 start_time: "9:00 AM"
+start_time_24h: "09:00"
 end_time: "5:00 PM"
 duration: 480
 room: "C211-C213"
@@ -27,8 +28,10 @@ tags:
 
 ## Description
 
-Join this hands-on workshop to learn how a Microsoft engineering team uses Fabric Spark to tackle real-world data engineering challenges. Learn to build scalable data pipelines with Spark Structured Streaming, ML augmentation, and STAR Schema-based dimensional modeling. The workshop covers an end-to-end medallion architecture, leaving you with reusable code assets, patterns, and tips, to accelerate building your own enterprise-ready data pipelines that can be debugged, deployed, and tested.
-
+Join this hands-on workshop to learn how a Microsoft engineering team uses Fabric Spark to tackle real-world data engineering challenges. Learn to build scalable data pipelines with Spark Structured Streaming, ML augmentation, and STAR Schema-based dimensional modeling. The workshop covers an end-to-end medallion architecture, leaving you with reusable code assets, patterns, and tips, to accelerate building your own enterprise-ready data pipelines that can be debugged, deployed, and tested.
+
+
+
 *Please note that this workshop is hands-on and requires attendees to bring a laptop to participate. 
 
 ## Key Takeaways

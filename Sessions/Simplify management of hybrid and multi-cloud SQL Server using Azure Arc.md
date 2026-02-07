@@ -3,6 +3,7 @@ title: "Simplify management of hybrid and multi-cloud SQL Server using Azure Arc
 date: 2026-03-20
 day: Friday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "C202-C204"

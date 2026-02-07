@@ -3,6 +3,7 @@ title: "{{title}}"
 date: {{date}}
 day: {{day}}
 start_time: "{{start_time}}"
+start_time_24h: "{{start_time_24h}}"
 end_time: "{{end_time}}"
 duration: 60
 room: "{{room}}"

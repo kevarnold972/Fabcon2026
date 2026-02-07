@@ -11,7 +11,7 @@ views:
       and:
         - day == "Monday"
     order:
-      - start_time
+      - start_time_24h
       - file.name
       - room
       - level_name
@@ -21,7 +21,7 @@ views:
       and:
         - day == "Tuesday"
     order:
-      - start_time
+      - start_time_24h
       - file.name
       - room
       - level_name
@@ -31,7 +31,7 @@ views:
       and:
         - day == "Wednesday"
     order:
-      - start_time
+      - start_time_24h
       - file.name
       - room
       - track
@@ -41,7 +41,7 @@ views:
       and:
         - day == "Thursday"
     order:
-      - start_time
+      - start_time_24h
       - file.name
       - room
       - track
@@ -51,7 +51,7 @@ views:
       and:
         - day == "Friday"
     order:
-      - start_time
+      - start_time_24h
       - file.name
       - room
       - track

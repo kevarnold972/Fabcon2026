@@ -3,6 +3,7 @@ title: "Fabric IQ + Foundry IQ: Unifying data and knowledge for agentic AI"
 date: 2026-03-19
 day: "Thursday"
 start_time: "2:00 PM"
+start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "C208-C210"

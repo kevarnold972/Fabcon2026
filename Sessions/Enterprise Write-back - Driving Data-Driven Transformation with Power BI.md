@@ -3,6 +3,7 @@ title: "Enterprise Write-back: Driving Data-Driven Transformation with Power BI"
 date: 2026-03-19
 day: Thursday
 start_time: "1:30 PM"
+start_time_24h: "13:30"
 end_time: "1:50 PM"
 duration: 20
 room: "Expo Insight Theater"

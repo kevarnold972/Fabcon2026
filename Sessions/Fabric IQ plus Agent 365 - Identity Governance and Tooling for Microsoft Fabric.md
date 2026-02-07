@@ -3,6 +3,7 @@ title: "Fabric IQ + Agent 365: Identity, Governance & Tooling for Microsoft Fabr
 date: 2026-03-19
 day: "Thursday"
 start_time: "2:00 PM"
+start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "B404"

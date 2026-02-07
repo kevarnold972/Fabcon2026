@@ -3,6 +3,7 @@ title: "Empowering Lakehouse Solutions with Fabric Warehouse"
 date: 2026-03-18
 day: "Wednesday"
 start_time: "3:05 PM"
+start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "B406b-B407"

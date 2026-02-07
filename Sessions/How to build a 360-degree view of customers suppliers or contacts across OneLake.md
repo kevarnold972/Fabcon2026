@@ -3,6 +3,7 @@ title: "How to build a 360-degree view of customers, suppliers, or contacts acro
 date: 2026-03-18
 day: Wednesday
 start_time: "12:40 PM"
+start_time_24h: "12:40"
 end_time: "1:00 PM"
 duration: 20
 room: "Expo Solution Theater"

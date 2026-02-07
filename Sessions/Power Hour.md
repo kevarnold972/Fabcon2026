@@ -3,6 +3,7 @@ title: "Power Hour"
 date: 2026-03-19
 day: Thursday
 start_time: "5:30 PM"
+start_time_24h: "17:30"
 end_time: "7:00 PM"
 duration: 90
 room: "TMB 2-3"

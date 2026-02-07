@@ -3,6 +3,7 @@ title: "Where Data Meets Opportunity: Drive Business Value with Location Insight
 date: 2026-03-19
 day: Thursday
 start_time: "1:00 PM"
+start_time_24h: "13:00"
 end_time: "1:20 PM"
 duration: 20
 room: "Expo Innovation Theater"
@@ -25,7 +26,8 @@ tags:
 
 ## Description
 
-Join Esri to see how location intelligence can revolutionize your data strategy and give your organization a competitive edge. Esri's ArcGIS technology brings interactive mapping and advanced location-based analytics to Microsoft Fabric. Discover real-world success stories and learn how organizations are using location intelligence to uncover patterns, predict trends, and make smarter decisions. 
+Join Esri to see how location intelligence can revolutionize your data strategy and give your organization a competitive edge. Esri's ArcGIS technology brings interactive mapping and advanced location-based analytics to Microsoft Fabric. Discover real-world success stories and learn how organizations are using location intelligence to uncover patterns, predict trends, and make smarter decisions. 
+
  
 
 ## Key Takeaways

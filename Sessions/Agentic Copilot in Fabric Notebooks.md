@@ -3,6 +3,7 @@ title: "Agentic Copilot in Fabric Notebooks"
 date: 2026-03-19
 day: Thursday
 start_time: "4:15 PM"
+start_time_24h: "16:15"
 end_time: "5:15 PM"
 duration: 60
 room: "TMB 4"

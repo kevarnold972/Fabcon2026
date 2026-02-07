@@ -3,6 +3,7 @@ title: "Make your Power BI Desktop report print-ready (in one hour or less)"
 date: 2026-03-19
 day: Thursday
 start_time: "4:15 PM"
+start_time_24h: "16:15"
 end_time: "5:15 PM"
 duration: 60
 room: "B404"

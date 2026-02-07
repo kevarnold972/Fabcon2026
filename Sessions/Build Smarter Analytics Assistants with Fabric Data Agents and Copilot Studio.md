@@ -3,6 +3,7 @@ title: "Build Smarter Analytics Assistants with Fabric Data Agents and Copilot S
 date: 2026-03-20
 day: Friday
 start_time: "2:00 PM"
+start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "C105-C106"

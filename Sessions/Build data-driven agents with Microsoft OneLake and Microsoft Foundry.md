@@ -3,6 +3,7 @@ title: "Build data-driven agents with Microsoft OneLake and Microsoft Foundry"
 date: 2026-03-18
 day: Wednesday
 start_time: "1:45 PM"
+start_time_24h: "13:45"
 end_time: "2:45 PM"
 duration: 60
 room: "TMB 4"

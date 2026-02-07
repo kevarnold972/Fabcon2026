@@ -3,6 +3,7 @@ title: "Automate at Scale with Event-Driven Architectures and Business Events "
 date: 2026-03-20
 day: Friday
 start_time: "3:15 PM"
+start_time_24h: "15:15"
 end_time: "4:15 PM"
 duration: 60
 room: "C113-C114"

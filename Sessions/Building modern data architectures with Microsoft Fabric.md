@@ -3,6 +3,7 @@ title: "Building modern data architectures with Microsoft Fabric"
 date: 2026-03-20
 day: Friday
 start_time: "3:15 PM"
+start_time_24h: "15:15"
 end_time: "4:15 PM"
 duration: 60
 room: "TMB 4"

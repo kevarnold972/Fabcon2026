@@ -3,6 +3,7 @@ title: "Building Scalable Real-Time Solutions using Event-Driven Architectures w
 date: 2026-03-17
 day: Tuesday
 start_time: "9:00 AM"
+start_time_24h: "09:00"
 end_time: "5:00 PM"
 duration: 480
 room: "C302"
@@ -26,13 +27,20 @@ tags:
 
 ## Description
 
-In this workshop, participants will build end-to-end solution using Microsoft Fabric’s Real-Time Intelligence capabilities using: Real-Time Hub, Eventstream, Eventhouse, Lakehouse, Real-Time Dashboards, Power BI, Activator, AI Agents including:
-•	Connecting to diverse data sources
-•	Developing data transformation and enrichment logic
-•	Building operational monitoring real-time dashboards and actions
-•	Setting up AI agents 
-•	Learn about Event driven architectures optimization best practices 
-
+In this workshop, participants will build end-to-end solution using Microsoft Fabric’s Real-Time Intelligence capabilities using: Real-Time Hub, Eventstream, Eventhouse, Lakehouse, Real-Time Dashboards, Power BI, Activator, AI Agents including:
+
+•	Connecting to diverse data sources
+
+•	Developing data transformation and enrichment logic
+
+•	Building operational monitoring real-time dashboards and actions
+
+•	Setting up AI agents 
+
+•	Learn about Event driven architectures optimization best practices 
+
+
+
 *Please note that this workshop is hands-on and requires attendees to bring a laptop to participate. 
 
 ## Key Takeaways

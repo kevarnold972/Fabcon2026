@@ -12,6 +12,6 @@ views:
       - file.name
       - session_type
       - day
-      - start_time
+      - start_time_24h
       - level_name
       - status

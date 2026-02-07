@@ -3,6 +3,7 @@ title: "Women in Data: Leading the Way"
 date: 2026-03-19
 day: Thursday
 start_time: "12:30 PM"
+start_time_24h: "12:30"
 end_time: "2:00 PM"
 duration: 90
 room: "C4"

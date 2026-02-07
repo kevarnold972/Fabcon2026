@@ -3,6 +3,7 @@ title: "Chat with Your Data: Discover the Future of Data Insights with Power BI 
 date: 2026-03-16
 day: "Monday"
 start_time: "9:00 AM"
+start_time_24h: "09:00"
 end_time: "5:00 PM"
 duration: 480
 room: "C202-204"

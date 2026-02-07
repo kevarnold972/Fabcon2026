@@ -3,6 +3,7 @@ title: "Enterprise-Grade Migration to Microsoft Fabric: Modernizing Lakehouses, 
 date: 2026-03-19
 day: "Thursday"
 start_time: "8:00 AM"
+start_time_24h: "08:00"
 end_time: "9:00 AM"
 duration: 60
 room: "C301"

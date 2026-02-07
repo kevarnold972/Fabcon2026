@@ -3,6 +3,7 @@ title: "Forget Prompts: Building Declarative AI Pipelines in Fabric"
 date: 2026-03-20
 day: Friday
 start_time: "2:00 PM"
+start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "C111-C112"

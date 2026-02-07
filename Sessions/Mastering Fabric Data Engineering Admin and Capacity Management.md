@@ -3,6 +3,7 @@ title: "Mastering Fabric Data Engineering Admin and Capacity Management"
 date: 2026-03-20
 day: Friday
 start_time: "11:30 AM"
+start_time_24h: "11:30"
 end_time: "12:30 PM"
 duration: 60
 room: "C113-C114"

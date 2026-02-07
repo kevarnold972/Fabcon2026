@@ -3,6 +3,7 @@ title: "Turn It On: The Power of Query Store for Rapid Performance Tuning"
 date: 2026-03-19
 day: Thursday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "C208-C210"

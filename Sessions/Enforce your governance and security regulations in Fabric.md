@@ -3,6 +3,7 @@ title: "Enforce your governance and security regulations in Fabric"
 date: 2026-03-19
 day: Thursday
 start_time: "11:30 AM"
+start_time_24h: "11:30"
 end_time: "12:30 PM"
 duration: 60
 room: "C102"
@@ -26,8 +27,10 @@ tags:
 
 ## Description
 
-Join this session to discover the latest in Fabric security and governance enhancements:
-• New policies which allow Fabric admins to define precise, flexible controls in one central place. 
+Join this session to discover the latest in Fabric security and governance enhancements:
+
+• New policies which allow Fabric admins to define precise, flexible controls in one central place. 
+
 • New Purview security integrations which enable security admins to apply adaptive protection to sensitive data in Fabric.
 
 ## Key Takeaways

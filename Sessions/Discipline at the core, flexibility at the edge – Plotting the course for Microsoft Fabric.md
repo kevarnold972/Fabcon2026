@@ -3,6 +3,7 @@ title: "Discipline at the core, flexibility at the edge – Plotting the course 
 date: 2026-03-19
 day: Thursday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "B313b-B314"
@@ -26,7 +27,8 @@ tags:
 
 ## Description
 
-Disciplined foundations and flexible practices, built on clear requirements and responsibilities, drive successful implementations of Microsoft Fabric. Based on a core principle of Executive Sponsorship, explore how to enable scalable self-service, grow a thriving community for skills and best practice sharing, and apply the Fabric Adoption Roadmap to establish effective, sustainable governance.
+Disciplined foundations and flexible practices, built on clear requirements and responsibilities, drive successful implementations of Microsoft Fabric. Based on a core principle of Executive Sponsorship, explore how to enable scalable self-service, grow a thriving community for skills and best practice sharing, and apply the Fabric Adoption Roadmap to establish effective, sustainable governance.
+
 
 
 ## Key Takeaways

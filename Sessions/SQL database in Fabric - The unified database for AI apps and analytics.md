@@ -3,6 +3,7 @@ title: "SQL database in Fabric: The unified database for AI apps and analytics"
 date: 2026-03-19
 day: Thursday
 start_time: "10:10 AM"
+start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "B405-B406a"

@@ -3,6 +3,7 @@ title: "The Agentic Data Estate - Make, Manage, Monitor"
 date: 2026-03-19
 day: Thursday
 start_time: "4:15 PM"
+start_time_24h: "16:15"
 end_time: "5:15 PM"
 duration: 60
 room: "C102"
@@ -26,8 +27,10 @@ tags:
 
 ## Description
 
-Learn how digital workers, supported by the Agent Framework and digital workforce management best practices, can run your Fabric data estate.   Discovery, Observability, Continuous Optimization, Quality & Drift are just some of the key workloads that can be automated using agents.  
-
+Learn how digital workers, supported by the Agent Framework and digital workforce management best practices, can run your Fabric data estate.   Discovery, Observability, Continuous Optimization, Quality & Drift are just some of the key workloads that can be automated using agents.  
+
+
+
 See how you can identify and implement the digital worker roles which make the most sense for your enterprise.
 
 ## Key Takeaways

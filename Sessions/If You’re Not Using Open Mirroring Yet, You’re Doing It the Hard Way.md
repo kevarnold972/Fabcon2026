@@ -3,6 +3,7 @@ title: "If You’re Not Using Open Mirroring Yet, You’re Doing It the Hard Way
 date: 2026-03-20
 day: Friday
 start_time: "2:00 PM"
+start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "C101"
@@ -25,10 +26,14 @@ tags:
 
 ## Description
 
-Still landing data the old way? You’re paying too much for it.
-
-Open Mirroring in Microsoft Fabric is faster, simpler and free as in free beer.
-
+Still landing data the old way? You’re paying too much for it.
+
+
+
+Open Mirroring in Microsoft Fabric is faster, simpler and free as in free beer.
+
+
+
 In this deep-dive, learn how to build and tune open-mirroring pipelines with Python, measure real-world performance, and see why this cost-free pattern should be your default for data landing.
 
 ## Key Takeaways
