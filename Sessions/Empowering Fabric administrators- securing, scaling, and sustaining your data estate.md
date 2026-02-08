@@ -19,7 +19,7 @@ speakers:
 conference: FABCON
 url: ""
 interest:
-status: Considering
+status: Not Reviewed
 tags:
   - fabcon2026
   - session
