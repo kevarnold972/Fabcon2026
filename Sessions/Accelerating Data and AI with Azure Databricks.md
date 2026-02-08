@@ -7,7 +7,7 @@ start_time_24h: "08:00"
 end_time: "9:00 AM"
 duration: 60
 room: "C302"
-track: "[[Data Engineering Track]]"
+track: "[[Data Engineering]]"
 session_type: "Sponsor Speaker"
 level: 300
 level_name: "Technical"

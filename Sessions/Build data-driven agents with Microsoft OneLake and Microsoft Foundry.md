@@ -7,7 +7,7 @@ start_time_24h: "13:45"
 end_time: "2:45 PM"
 duration: 60
 room: "TMB 4"
-track: "[[Microsoft Foundry Track]]"
+track: "[[Microsoft Foundry]]"
 session_type: "Breakout Session"
 level: 300
 level_name: "Technical"

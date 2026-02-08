@@ -7,7 +7,7 @@ start_time_24h: "11:30"
 end_time: "12:30 PM"
 duration: 60
 room: "TMB 1"
-track: "[[SQL in Fabric Track]]"
+track: "[[SQL in Fabric]]"
 session_type: "Breakout Session"
 level: 300
 level_name: "Technical"

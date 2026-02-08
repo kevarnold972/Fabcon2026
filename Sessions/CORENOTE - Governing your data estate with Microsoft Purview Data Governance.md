@@ -7,7 +7,7 @@ start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "B308-B309"
-track: "[[Microsoft Purview Track]]"
+track: "[[Microsoft Purview]]"
 session_type: "CORENOTE"
 level: 200
 level_name: "Feature Oriented"

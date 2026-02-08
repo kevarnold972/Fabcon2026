@@ -7,7 +7,7 @@ start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "B401-B402"
-track: "[[Azure SQL Track]]"
+track: "[[Azure SQL]]"
 session_type: "Breakout Session"
 level: 200
 level_name: "Feature Oriented"

@@ -1,6 +1,6 @@
 ---
 type: Track
-track_name: Azure SQL Track
+track_name: Azure SQL
 conference: SQLCON
 tags:
   - fabcon2026
@@ -8,7 +8,7 @@ tags:
   - track
 ---
 
-## Azure SQL Track
+## Azure SQL
 
 Sessions focused on Azure SQL Database, Azure SQL Managed Instance, and cloud SQL workloads.
 

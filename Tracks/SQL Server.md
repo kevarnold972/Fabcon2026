@@ -1,6 +1,6 @@
 ---
 type: Track
-track_name: Cosmos DB Track
+track_name: SQL Server
 conference: SQLCON
 tags:
   - fabcon2026
@@ -8,9 +8,9 @@ tags:
   - track
 ---
 
-## Cosmos DB Track
+## SQL Server
 
-Sessions focused on Azure Cosmos DB, NoSQL, and distributed database workloads.
+Sessions focused on SQL Server, performance tuning, and database administration.
 
 ## Sessions in this Track
 

@@ -7,7 +7,7 @@ start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "C208-C210"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "60 Minute Session"
 level: 300
 level_name: "300 - Technical"

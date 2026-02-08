@@ -7,7 +7,7 @@ start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "C211-C213"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "60 Minute Session"
 level: 200
 level_name: "200 - Feature Oriented"

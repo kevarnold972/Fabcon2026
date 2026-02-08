@@ -7,7 +7,7 @@ start_time_24h: "13:10"
 end_time: "1:30 PM"
 duration: 20
 room: "Expo Insight Theater"
-track: "[[SQL in Fabric Track]]"
+track: "[[SQL in Fabric]]"
 session_type: "Sponsor Solution Showcase"
 level: 200
 level_name: "Feature Oriented"
