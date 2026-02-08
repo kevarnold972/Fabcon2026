@@ -7,7 +7,7 @@ start_time_24h: "10:10"
 end_time: "11:10 AM"
 duration: 60
 room: "B405-B406a"
-track: "[[SQL in Fabric Track]]"
+track: "[[SQL in Fabric]]"
 session_type: "Breakout Session"
 level: 200
 level_name: "Feature Oriented"

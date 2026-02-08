@@ -7,7 +7,7 @@ start_time_24h: "11:30"
 end_time: "12:30 PM"
 duration: 60
 room: "C111-C112"
-track: "[[SQL Server Track]]"
+track: "[[SQL Server]]"
 session_type: "Breakout Session"
 level: 300
 level_name: "Technical"

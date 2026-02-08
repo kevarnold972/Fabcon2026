@@ -7,7 +7,7 @@ start_time_24h: "13:00"
 end_time: "1:20 PM"
 duration: 20
 room: "Expo Insight Theater"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "20 Minute Sponsor Solution Showcase (as part of a sponsorship package)"
 level: 200
 level_name: "200 - Feature Oriented"

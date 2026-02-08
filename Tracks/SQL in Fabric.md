@@ -1,6 +1,6 @@
 ---
 type: Track
-track_name: SQL Server Track
+track_name: SQL in Fabric
 conference: SQLCON
 tags:
   - fabcon2026
@@ -8,9 +8,9 @@ tags:
   - track
 ---
 
-## SQL Server Track
+## SQL in Fabric
 
-Sessions focused on SQL Server, performance tuning, and database administration.
+Sessions focused on SQL Database in Microsoft Fabric and T-SQL analytics endpoints.
 
 ## Sessions in this Track
 

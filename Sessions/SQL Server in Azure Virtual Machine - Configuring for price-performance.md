@@ -7,7 +7,7 @@ start_time_24h: "08:00"
 end_time: "9:00 AM"
 duration: 60
 room: "TMB 1"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "60 Minute Session"
 level: 300
 level_name: "300 - Technical"

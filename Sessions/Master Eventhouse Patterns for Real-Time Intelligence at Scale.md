@@ -7,7 +7,7 @@ start_time_24h: "16:15"
 end_time: "5:15 PM"
 duration: 60
 room: "B313b-B314"
-track: "[[Real-Time Intelligence Track]]"
+track: "[[Real-Time Intelligence]]"
 session_type: "Breakout Session"
 level: 300
 level_name: "Technical"

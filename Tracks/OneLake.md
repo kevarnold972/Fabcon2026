@@ -1,13 +1,13 @@
 ---
 type: Track
-track_name: OneLake Track
+track_name: OneLake
 conference: FABCON
 tags:
   - fabcon2026
   - track
 ---
 
-## OneLake Track
+## OneLake
 
 Sessions focused on OneLake, shortcuts, data sharing, and unified data storage.
 

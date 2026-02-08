@@ -7,7 +7,7 @@ start_time_24h: "14:00"
 end_time: "3:00 PM"
 duration: 60
 room: "C202-C204"
-track: "[[SQL Server Track]]"
+track: "[[SQL Server]]"
 session_type: "Breakout Session"
 level: 400
 level_name: "Deep Technical"

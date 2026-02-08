@@ -7,7 +7,7 @@ start_time_24h: "16:25"
 end_time: "5:25 PM"
 duration: 60
 room: "B405-B406a"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "Sponsor Speaker 60 Minute Session (as part of a sponsorship package)"
 level: 300
 level_name: "300 - Technical"

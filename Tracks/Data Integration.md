@@ -1,13 +1,13 @@
 ---
 type: Track
-track_name: Data Integration Track
+track_name: Data Integration
 conference: FABCON
 tags:
   - fabcon2026
   - track
 ---
 
-## Data Integration Track
+## Data Integration
 
 Sessions focused on Data Factory, pipelines, dataflows, and data movement in Fabric.
 

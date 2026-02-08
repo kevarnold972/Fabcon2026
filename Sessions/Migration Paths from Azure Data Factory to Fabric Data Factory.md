@@ -7,7 +7,7 @@ start_time_24h: "16:25"
 end_time: "5:25 PM"
 duration: 60
 room: "C202-C204"
-track: "[[Data Integration Track]]"
+track: "[[Data Integration]]"
 session_type: "Breakout Session"
 level: 200
 level_name: "Feature Oriented"

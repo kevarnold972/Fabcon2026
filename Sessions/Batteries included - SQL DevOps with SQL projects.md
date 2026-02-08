@@ -7,7 +7,7 @@ start_time_24h: "15:15"
 end_time: "4:15 PM"
 duration: 60
 room: "C211-C213"
-track: "[[SQL Server Track]]"
+track: "[[SQL Server]]"
 session_type: "Breakout Session"
 level: 200
 level_name: "Feature Oriented"

@@ -7,7 +7,7 @@ start_time_24h: "13:45"
 end_time: "2:45 PM"
 duration: 60
 room: "TMB 2-3"
-track: "[[SQL Server Track]]"
+track: "[[SQL Server]]"
 session_type: "CORENOTE"
 level: 200
 level_name: "Feature Oriented"

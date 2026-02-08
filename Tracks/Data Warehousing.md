@@ -1,13 +1,13 @@
 ---
 type: Track
-track_name: Data Warehousing Track
+track_name: Data Warehousing
 conference: FABCON
 tags:
   - fabcon2026
   - track
 ---
 
-## Data Warehousing Track
+## Data Warehousing
 
 Sessions focused on Fabric Data Warehouse, SQL analytics, medallion architecture, and enterprise data warehousing.
 

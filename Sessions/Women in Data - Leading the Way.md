@@ -7,7 +7,7 @@ start_time_24h: "12:30"
 end_time: "2:00 PM"
 duration: 90
 room: "C4"
-track: "[[Admin and Governance Track]]"
+track: "[[Admin and Governance]]"
 session_type: "Panel Discussion"
 level: 100
 level_name: "Business Level"

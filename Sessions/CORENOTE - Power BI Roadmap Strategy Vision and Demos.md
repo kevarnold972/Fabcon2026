@@ -7,7 +7,7 @@ start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "C111-C112"
-track: "[[Power BI Track]]"
+track: "[[Power BI]]"
 session_type: "CORENOTE"
 level: 200
 level_name: "Feature Oriented"

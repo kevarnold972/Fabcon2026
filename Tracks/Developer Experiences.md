@@ -1,13 +1,13 @@
 ---
 type: Track
-track_name: Developer Experiences Track
+track_name: Developer Experiences
 conference: FABCON
 tags:
   - fabcon2026
   - track
 ---
 
-## Developer Experiences Track
+## Developer Experiences
 
 Sessions focused on developer productivity, CI/CD, Git integration, and development workflows.
 

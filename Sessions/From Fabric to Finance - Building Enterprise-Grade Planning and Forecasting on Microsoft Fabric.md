@@ -7,7 +7,7 @@ start_time_24h: "15:15"
 end_time: "4:15 PM"
 duration: 60
 room: "C301"
-track: "[[Data Integration Track]]"
+track: "[[Data Integration]]"
 session_type: "Sponsor Speaker"
 level: 300
 level_name: "Technical"

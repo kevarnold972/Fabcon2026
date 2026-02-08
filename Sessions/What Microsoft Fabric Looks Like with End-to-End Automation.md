@@ -7,7 +7,7 @@ start_time_24h: "15:20"
 end_time: "3:40 PM"
 duration: 20
 room: "Expo Solution Theater"
-track: "[[Data Engineering Track]]"
+track: "[[Data Engineering]]"
 session_type: "Sponsor Solution Showcase"
 level: 300
 level_name: "Technical"

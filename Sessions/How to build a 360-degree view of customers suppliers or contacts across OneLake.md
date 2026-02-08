@@ -7,7 +7,7 @@ start_time_24h: "12:40"
 end_time: "1:00 PM"
 duration: 20
 room: "Expo Solution Theater"
-track: "[[Data Integration Track]]"
+track: "[[Data Integration]]"
 session_type: "Sponsor Solution Showcase"
 level: 200
 level_name: "Feature Oriented"

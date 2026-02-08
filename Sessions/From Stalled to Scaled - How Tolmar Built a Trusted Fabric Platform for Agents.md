@@ -7,7 +7,7 @@ start_time_24h: "09:30"
 end_time: "9:50 AM"
 duration: 20
 room: "Expo Insight Theater"
-track: "[[Admin and Governance Track]]"
+track: "[[Admin and Governance]]"
 session_type: "Sponsor Solution Showcase"
 level: 100
 level_name: "Business Level"

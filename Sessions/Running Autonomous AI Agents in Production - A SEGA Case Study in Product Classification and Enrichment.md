@@ -7,7 +7,7 @@ start_time_24h: "15:20"
 end_time: "3:40 PM"
 duration: 20
 room: "Expo Innovation Theater"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "20 Minute Sponsor Solution Showcase (as part of a sponsorship package)"
 level: 300
 level_name: "300 - Technical"

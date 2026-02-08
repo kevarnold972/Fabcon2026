@@ -7,7 +7,7 @@ start_time_24h: "15:05"
 end_time: "4:05 PM"
 duration: 60
 room: "B401-B402"
-track: "[[Real-Time Intelligence Track]]"
+track: "[[Real-Time Intelligence]]"
 session_type: "CORENOTE"
 level: 100
 level_name: "Business Level"

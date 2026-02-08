@@ -7,7 +7,7 @@ start_time_24h: "09:00"
 end_time: "5:00 PM"
 duration: 480
 room: "C113-114"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "Full Day Workshop"
 level: 300
 level_name: "300 - Technical"

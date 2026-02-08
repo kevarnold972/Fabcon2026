@@ -1,6 +1,6 @@
 ---
 type: Track
-track_name: PostgreSQL Track
+track_name: MySQL
 conference: SQLCON
 tags:
   - fabcon2026
@@ -8,9 +8,9 @@ tags:
   - track
 ---
 
-## PostgreSQL Track
+## MySQL
 
-Sessions focused on Azure Database for PostgreSQL and PostgreSQL workloads.
+Sessions focused on Azure Database for MySQL and MySQL workloads.
 
 ## Sessions in this Track
 

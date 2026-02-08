@@ -7,7 +7,7 @@ start_time_24h: "09:30"
 end_time: "9:50 AM"
 duration: 20
 room: "Expo Solution Theater"
-track: "[[Power BI Track]]"
+track: "[[Power BI]]"
 session_type: "Sponsor Solution Showcase"
 level: 200
 level_name: "Feature Oriented"

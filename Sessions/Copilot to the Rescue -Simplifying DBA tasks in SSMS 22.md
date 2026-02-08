@@ -7,7 +7,7 @@ start_time_24h: "11:30"
 end_time: "12:30 PM"
 duration: 60
 room: "TMB 4"
-track: "[[Admin & Governance]]"
+track: "[[Admin and Governance]]"
 session_type: "60 Minute Session"
 level: 200
 level_name: "200 - Feature Oriented"

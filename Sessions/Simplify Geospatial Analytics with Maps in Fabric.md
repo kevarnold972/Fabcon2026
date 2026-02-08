@@ -7,7 +7,7 @@ start_time_24h: "16:15"
 end_time: "5:15 PM"
 duration: 60
 room: "B312-B313a"
-track: "[[Real-Time Intelligence Track]]"
+track: "[[Real-Time Intelligence]]"
 session_type: "Breakout Session"
 level: 200
 level_name: "Feature Oriented"

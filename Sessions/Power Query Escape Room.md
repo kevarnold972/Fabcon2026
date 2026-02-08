@@ -7,7 +7,7 @@ start_time_24h: "13:45"
 end_time: "2:45 PM"
 duration: 60
 room: "C105-C106"
-track: "[[Power BI Track]]"
+track: "[[Power BI]]"
 session_type: "Breakout Session"
 level: 300
 level_name: "Technical"

@@ -1,13 +1,13 @@
 ---
 type: Track
-track_name: Power Platform Track
+track_name: Power Platform
 conference: FABCON
 tags:
   - fabcon2026
   - track
 ---
 
-## Power Platform Track
+## Power Platform
 
 Sessions focused on Power Apps, Power Automate, and Power Platform integration with Fabric.
 
